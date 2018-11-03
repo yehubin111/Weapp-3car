@@ -1,0 +1,38 @@
+<import src="/components/nav.vue.wxml" />
+<template name="1c24aa92">
+  <view class="_view data-v-805a3fbe content">
+    <view class="_div data-v-805a3fbe user">
+      <view class="_p data-v-805a3fbe header">
+        <image src="{{usershop.logo}}" class="_image data-v-805a3fbe"></image>
+      </view>
+      <view class="_div data-v-805a3fbe username">
+        <view class="_p data-v-805a3fbe name"> {{userinfo.name}} </view>
+        <view class="_p data-v-805a3fbe tel">手机：{{userinfo.phone}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-805a3fbe function">
+      <view class="_div data-v-805a3fbe owncar">
+        <navigator url="/pages/owncar/owncar" hover-class="none" class="_navigator data-v-805a3fbe line"> 库存车辆 {{owncarcount}} </navigator>
+        <navigator url="/pages/public/public" hover-stop-propagation="true" hover-class="none" class="_navigator data-v-805a3fbe public">快速发车</navigator>
+      </view>
+      <view class="_p data-v-805a3fbe wire"></view>
+      <view class="_ul data-v-805a3fbe impt">
+        <view class="_li data-v-805a3fbe">
+          <navigator url="/pages/mycontract/mycontract" hover-class="none" class="_navigator data-v-805a3fbe link">
+            <view class="_p data-v-805a3fbe icon icon1"></view>
+            <view class="_p data-v-805a3fbe font">我的成交</view>
+          </navigator>
+        </view>
+        <view bindtap="handleProxy" data-eventid="{{'wl9-0'}}" data-comkey="{{$k}}" class="_li data-v-805a3fbe">
+          <view class="_p data-v-805a3fbe icon icon2"></view>
+          <view class="_p data-v-805a3fbe font">私人订制</view>
+        </view>
+        <view bindtap="handleProxy" data-eventid="{{'egQ-1'}}" data-comkey="{{$k}}" class="_li data-v-805a3fbe">
+          <view class="_p data-v-805a3fbe icon icon3"></view>
+          <view class="_p data-v-805a3fbe font">客户管理</view>
+        </view>
+      </view>
+    </view>
+    <template data="{{...$root['0'], ...$root[$kk+'tCq-0'],$root}}" is="1acc4668"></template>
+  </view>
+</template>

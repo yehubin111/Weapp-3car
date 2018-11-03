@@ -1,0 +1,8 @@
+<import src="/components/result/contract.vue.wxml" />
+<import src="/components/result/signature.vue.wxml" />
+<template name="19b28cdc">
+  <view class="_view data-v-d25621be content">
+    <template data="{{...$root['0'], ...$root[$kk+'XLn-0'],$root}}" is="5dc6a46d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'fwC-1'],$root}}" is="441aa426"></template>
+  </view>
+</template>

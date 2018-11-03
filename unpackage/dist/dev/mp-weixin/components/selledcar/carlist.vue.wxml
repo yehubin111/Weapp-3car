@@ -1,0 +1,18 @@
+<template name="3366478f">
+  <view class="_view data-v-7ce9e2e0 carlist">
+    <navigator class="_navigator data-v-7ce9e2e0 car" wx:key="index" key="{{index}}" url="{{'/pages/result/result?contractNo=' + item.contractNo}}" wx:for="{{selledcar}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-7ce9e2e0 con">
+        <view class="_div data-v-7ce9e2e0 info">
+          <view class="_p data-v-7ce9e2e0 name">{{item.title}}</view>
+          <view class="_p data-v-7ce9e2e0 sellinfo">卖方：
+            <label class="_span data-v-7ce9e2e0">{{item.seller}}</label>买方：
+            <label class="_span data-v-7ce9e2e0">{{item.buyer}}</label>
+          </view>
+          <view class="_p data-v-7ce9e2e0 sellinfo">成交日期：
+            <label class="_span data-v-7ce9e2e0">{{item.cjsj}}</label>
+          </view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</template>

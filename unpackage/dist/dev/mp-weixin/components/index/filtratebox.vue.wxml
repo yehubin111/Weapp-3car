@@ -1,0 +1,77 @@
+<template name="ff340da8">
+  <view class="_view data-v-6c2cd706">
+    <view class="_div data-v-6c2cd706 filtrate">
+      <view class="_div data-v-6c2cd706 filbox">
+        <view class="_div data-v-6c2cd706 fline">
+          <view class="_p data-v-6c2cd706 title">车龄</view>
+          <view class="_div data-v-6c2cd706 list">
+            <view class="_ul data-v-6c2cd706">
+              <view class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'jqY-0'}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.spdate === -1 ? 'on' : '']}}">不限</label>
+              </view>
+              <view wx:key="index" key="{{index}}" wx:for="{{agelist}}" wx:for-index="index" wx:for-item="age" class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'uGj-1-'+index}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.spdate === index ? 'on' : '']}}">{{age.name}}</label>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-6c2cd706 fline">
+          <view class="_p data-v-6c2cd706 title">里程</view>
+          <view class="_div data-v-6c2cd706 list">
+            <view class="_ul data-v-6c2cd706">
+              <view class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'Q3A-2'}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.leage === -1 ? 'on' : '']}}">不限</label>
+              </view>
+              <view wx:key="index" key="{{index}}" wx:for="{{leagelist}}" wx:for-index="index" wx:for-item="leage" class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'Kcf-3-'+index}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.leage === index ? 'on' : '']}}">{{leage.name}}</label>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-6c2cd706 fline">
+          <view class="_p data-v-6c2cd706 title">排放</view>
+          <view class="_div data-v-6c2cd706 list">
+            <view class="_ul data-v-6c2cd706">
+              <view class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'j3D-4'}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.outtype === -1 ? 'on' : '']}}">不限</label>
+              </view>
+              <view wx:key="index" key="{{index}}" wx:for="{{outlist}}" wx:for-index="index" wx:for-item="out" class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'dfs-5-'+index}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.outtype === index ? 'on' : '']}}">{{out.name}}</label>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-6c2cd706 fline">
+          <view class="_p data-v-6c2cd706 title">档位</view>
+          <view class="_div data-v-6c2cd706 list">
+            <view class="_ul data-v-6c2cd706">
+              <view class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'5zH-6'}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.gear === -1 ? 'on' : '']}}">不限</label>
+              </view>
+              <view wx:key="index" key="{{index}}" wx:for="{{gearlist}}" wx:for-index="index" wx:for-item="gear" class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'xZs-7-'+index}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.gear === index ? 'on' : '']}}">{{gear.name}}</label>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-6c2cd706 fline">
+          <view class="_p data-v-6c2cd706 title">颜色</view>
+          <view class="_div data-v-6c2cd706 list">
+            <view class="_ul data-v-6c2cd706">
+              <view class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'DHC-8'}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.color === -1 ? 'on' : '']}}">不限</label>
+              </view>
+              <view wx:key="index" key="{{index}}" wx:for="{{colorlist}}" wx:for-index="index" wx:for-item="color" class="_li data-v-6c2cd706">
+                <label bindtap="handleProxy" data-eventid="{{'jjd-9-'+index}}" data-comkey="{{$k}}" class="_span data-v-6c2cd706 {{[selectIndex.color === index ? 'on' : '']}}">{{color.name}}</label>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-6c2cd706 filbutton">
+        <view class="_p data-v-6c2cd706 reset" bindtap="handleProxy" data-eventid="{{'vZT-10'}}" data-comkey="{{$k}}">取消</view>
+        <view class="_p data-v-6c2cd706 select" bindtap="handleProxy" data-eventid="{{'zjL-11'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>

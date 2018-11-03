@@ -1,0 +1,30 @@
+<template name="441aa426">
+  <view class="_view data-v-1e543708">
+    <view class="_div data-v-1e543708 signature">
+      <view class="_div data-v-1e543708 line">
+        <view class="_div data-v-1e543708 left">
+          <view hidden="{{!(!info.qmsj)}}" class="_p data-v-1e543708">卖方未签字</view>
+          <image hidden="{{!(info.qmsj)}}" src="{{info.sign}}" alt class="_image data-v-1e543708"></image>
+        </view>
+        <view class="_div data-v-1e543708 right">
+          <view class="_p data-v-1e543708">签署人：{{info.seller}}</view>
+          <view class="_p data-v-1e543708">签署时间：{{info.qmsj}}</view>
+          <view class="_p data-v-1e543708">联系方式：{{info.sellerPhone}}</view>
+          <view class="_p data-v-1e543708">身份证号：{{info.sellerIdCard}}</view>
+        </view>
+      </view>
+      <view class="_div data-v-1e543708 line" wx:key="index" key="{{index}}" wx:for="{{info.buyers}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-1e543708 left">
+          <view hidden="{{!(!item.qmsj)}}" class="_p data-v-1e543708">买方未签字</view>
+          <image hidden="{{!(item.qmsj)}}" src="{{item.sign}}" alt class="_image data-v-1e543708"></image>
+        </view>
+        <view class="_div data-v-1e543708 right">
+          <view class="_p data-v-1e543708">签署人：{{item.name}}</view>
+          <view class="_p data-v-1e543708">签署时间：{{item.qmsj}}</view>
+          <view class="_p data-v-1e543708">联系方式：{{item.phone}}</view>
+          <view class="_p data-v-1e543708">身份证号：{{item.idCard}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

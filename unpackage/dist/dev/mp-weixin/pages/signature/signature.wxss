@@ -1,0 +1,70 @@
+
+page {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+}
+.content.data-v-a11b071a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.content .drawarea.data-v-a11b071a {
+  margin-bottom: 23rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 26rpx 24rpx 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.content .drawarea .board.data-v-a11b071a {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  background-color: #ddd;
+  border-radius: 10rpx;
+  width: 100%;
+}
+.content .drawarea ._p.data-v-a11b071a {
+  -webkit-flex-basis: 63rpx;
+  flex-basis: 63rpx;
+  line-height: 63rpx;
+  font-size: 26rpx;
+  color: #666;
+  text-align: center;
+}
+.content .ctrl.data-v-a11b071a {
+  padding: 0 60rpx;
+  margin-bottom: 100rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.content .ctrl .clear.data-v-a11b071a {
+  margin-bottom: 25rpx;
+}

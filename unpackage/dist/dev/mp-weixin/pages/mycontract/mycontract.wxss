@@ -1,0 +1,68 @@
+
+.content.data-v-7071bd81 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding-top: 24rpx;
+  overflow: hidden;
+}
+.content .nav.data-v-7071bd81 {
+  margin: 0 24rpx;
+}
+.content .con.data-v-7071bd81 {
+  margin: 0 0 24rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding-top: 16rpx;
+}
+.content .con .brand.data-v-7071bd81 {
+  line-height: 70rpx;
+  font-size: 31rpx;
+  padding: 0 32rpx;
+  height: 70rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .con .sellinfo.data-v-7071bd81 {
+  padding: 0 0 0 32rpx;
+  color: #999;
+  font-size: 24rpx;
+  line-height: 62rpx;
+  margin-bottom: 15rpx;
+}
+.content .con .sellinfo ._span.data-v-7071bd81 {
+  color: #333;
+  margin-right: 30rpx;
+}
+.content .con .other.data-v-7071bd81 {
+  margin: 0 32rpx;
+  border-top: 1rpx solid #ebebeb;
+  font-size: 24rpx;
+  overflow: hidden;
+  line-height: 82rpx;
+}
+.content .con .other .time.data-v-7071bd81 {
+  float: left;
+}
+.content .con .other .status.data-v-7071bd81 {
+  float: right;
+  font-size: 28rpx;
+}
+.content .con .other .status.nosign.data-v-7071bd81 {
+  color: #F44446;
+}
+.content .con .other .status.sign.data-v-7071bd81 {
+  color: #FBA500;
+}

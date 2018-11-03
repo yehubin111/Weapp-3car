@@ -1,0 +1,113 @@
+<template name="5dc6a46d">
+  <view class="_view data-v-7f6adffe">
+    <view class="_div data-v-7f6adffe contract">
+      <view class="_div data-v-7f6adffe con">
+        <view class="_p data-v-7f6adffe brand">{{info.keyword}}</view>
+        <view class="_ul data-v-7f6adffe info">
+          <view class="_li data-v-7f6adffe">
+            <view class="_p data-v-7f6adffe val">{{info.ccsjName}}</view>
+            <view class="_p data-v-7f6adffe unit">出厂日期</view>
+          </view>
+          <view wx:if="{{info.cjPrice}}" class="_li data-v-7f6adffe">
+            <view class="_p data-v-7f6adffe val">{{info.cjPrice}}</view>
+            <view class="_p data-v-7f6adffe unit">成交价(万元)</view>
+          </view>
+          <view class="_li data-v-7f6adffe">
+            <view class="_p data-v-7f6adffe val">{{info.mileage}}</view>
+            <view class="_p data-v-7f6adffe unit">里程(万公里)</view>
+          </view>
+          <view class="_li data-v-7f6adffe">
+            <view class="_p data-v-7f6adffe val">{{info.color}}</view>
+            <view class="_p data-v-7f6adffe unit">颜色</view>
+          </view>
+        </view>
+        <view class="_div data-v-7f6adffe infodetail" hidden="{{!(infodetail)}}">
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">车架号</label>
+            <label class="_span data-v-7f6adffe val">{{info.vin?info.vin: '--'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">发动机号</label>
+            <label class="_span data-v-7f6adffe val">{{info.engineNo?info.engineNo: '--'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">上牌日期</label>
+            <label class="_span data-v-7f6adffe val">{{info.spsjName}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">初次登记地</label>
+            <label class="_span data-v-7f6adffe val">{{info.belongArea?info.belongArea: '--'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">使用性质</label>
+            <label class="_span data-v-7f6adffe val">{{info.carNature?info.carNature: '--'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">过户次数</label>
+            <label class="_span data-v-7f6adffe val">{{info.ghNum?info.ghNum: '--'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">说明书</label>
+            <label class="_span data-v-7f6adffe val">{{info.instructions == 1?'有': '无'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">保养手册</label>
+            <label class="_span data-v-7f6adffe val">{{info.bysc == 1?'有': '无'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">钥匙数</label>
+            <label class="_span data-v-7f6adffe val">{{info.keyNum?info.keyNum: '--'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">包含运费</label>
+            <label class="_span data-v-7f6adffe val">{{info.freight == 1?'是': '否'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">
+            <label class="_span data-v-7f6adffe unit">联盟担保</label>
+            <label class="_span data-v-7f6adffe val">{{info.lmGuarantee == 1?'是': '否'}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe desc">
+            <label class="_span data-v-7f6adffe unit">车况描述</label>
+            <label class="_span data-v-7f6adffe val">{{info.desc}}</label>
+          </view>
+        </view>
+        <view class="_div data-v-7f6adffe moreinfo" bindtap="handleProxy" data-eventid="{{'Tw8-0'}}" data-comkey="{{$k}}">{{infodetail? '隐藏详细信息':'查看详细信息'}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-7f6adffe otherinfo">
+      <view class="_div data-v-7f6adffe con">
+        <view class="_div data-v-7f6adffe both">
+          <view class="_p data-v-7f6adffe sell">卖方
+            <label class="_span data-v-7f6adffe">{{info.seller}}</label>
+          </view>
+          <view class="_p data-v-7f6adffe">买方
+            <label wx:key="idx" key="{{idx}}" wx:for="{{info.buyers}}" wx:for-index="idx" wx:for-item="b" class="_span data-v-7f6adffe">{{b.name}}</label>
+          </view>
+        </view>
+        <view class="_p data-v-7f6adffe num">
+          <label class="_span data-v-7f6adffe unit">开户名</label>
+          <label class="_span data-v-7f6adffe">{{info.name}}</label>
+        </view>
+        <view class="_p data-v-7f6adffe num">
+          <label class="_span data-v-7f6adffe unit">账号</label>
+          <label class="_span data-v-7f6adffe">{{info.card}}</label>
+        </view>
+        <view class="_p data-v-7f6adffe time special">
+          <label class="_span data-v-7f6adffe unit">开户行</label>
+          <label class="_span data-v-7f6adffe">{{info.bank}}</label>
+        </view>
+        <view class="_p data-v-7f6adffe num">
+          <label class="_span data-v-7f6adffe unit">合同编号</label>
+          <label class="_span data-v-7f6adffe">{{contractNo}}</label>
+        </view>
+        <view class="_p data-v-7f6adffe time">
+          <label class="_span data-v-7f6adffe unit">合同日期</label>
+          <label class="_span data-v-7f6adffe">{{info.cjsj}}</label>
+        </view>
+        <view class="_p data-v-7f6adffe status">合同状态
+          <label class="_span data-v-7f6adffe {{[  info.flag === 0 ? 'nosign' : '',  info.flag == 1 ? 'sign' : '',  info.flag == 2 ? 'finish' : '']}}">{{info.statusName}}</label>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

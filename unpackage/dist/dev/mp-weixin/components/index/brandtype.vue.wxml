@@ -1,0 +1,49 @@
+<template name="10709026">
+  <view class="_view data-v-196bf37e">
+    <view class="_div data-v-196bf37e brandlist">
+      <view class="_div data-v-196bf37e brand" wx:if="{{brandshow}}">
+        <view class="_div data-v-196bf37e list">
+          <view class="_div data-v-196bf37e">
+            <view class="_p data-v-196bf37e bd" bindtap="handleProxy" data-eventid="{{'cpQ-0'}}" data-comkey="{{$k}}">不限</view>
+          </view>
+          <view wx:key="item.letter" key="{{item.letter}}" wx:for="{{brandlist}}" wx:for-index="index" wx:for-item="item" class="_div data-v-196bf37e">
+            <view class="_p data-v-196bf37e letter">{{item.letter}}</view>
+            <view class="_p data-v-196bf37e bd" wx:key="idx" key="{{idx}}" bindtap="handleProxy" data-eventid="{{'ZrR-1-'+index+'-'+idx}}" data-comkey="{{$k}}" wx:for="{{item.list}}" wx:for-index="idx" wx:for-item="g">{{g.title}}</view>
+          </view>
+        </view>
+        <view class="_div data-v-196bf37e button">
+          <view class="_p data-v-196bf37e cancel" bindtap="handleProxy" data-eventid="{{'QVJ-2'}}" data-comkey="{{$k}}">取消</view>
+        </view>
+      </view>
+      <view class="_div data-v-196bf37e type" wx:if="{{typeshow}}">
+        <view class="_div data-v-196bf37e list">
+          <view class="_div data-v-196bf37e">
+            <view class="_p data-v-196bf37e bd" bindtap="handleProxy" data-eventid="{{'uTW-3'}}" data-comkey="{{$k}}">不限</view>
+          </view>
+          <view wx:key="index" key="{{index}}" wx:for="{{typelist}}" wx:for-index="index" wx:for-item="item" class="_div data-v-196bf37e">
+            <view class="_p data-v-196bf37e letter">{{item.name}}</view>
+            <view class="_p data-v-196bf37e bd" wx:key="idx" key="{{idx}}" bindtap="handleProxy" data-eventid="{{'3h0-4-'+index+'-'+idx}}" data-comkey="{{$k}}" wx:for="{{item.list}}" wx:for-index="idx" wx:for-item="g">{{g.title}}</view>
+          </view>
+        </view>
+        <view class="_div data-v-196bf37e button">
+          <view class="_p data-v-196bf37e prev" bindtap="handleProxy" data-eventid="{{'Bk5-5'}}" data-comkey="{{$k}}">上一步</view>
+          <view class="_p data-v-196bf37e cancel" bindtap="handleProxy" data-eventid="{{'lJY-6'}}" data-comkey="{{$k}}">取消</view>
+        </view>
+      </view>
+      <view class="_div data-v-196bf37e type" wx:if="{{threegrade && seriesshow}}">
+        <view class="_div data-v-196bf37e list">
+          <view class="_div data-v-196bf37e">
+            <view class="_p data-v-196bf37e bd" bindtap="handleProxy" data-eventid="{{'Hlf-7'}}" data-comkey="{{$k}}">不限</view>
+          </view>
+          <view wx:key="index" key="{{index}}" wx:for="{{serieslist}}" wx:for-index="index" wx:for-item="item" class="_div data-v-196bf37e">
+            <view class="_p data-v-196bf37e bd" bindtap="handleProxy" data-eventid="{{'nbo-8-'+index}}" data-comkey="{{$k}}">{{item.subject}}</view>
+          </view>
+        </view>
+        <view class="_div data-v-196bf37e button">
+          <view class="_p data-v-196bf37e prev" bindtap="handleProxy" data-eventid="{{'BLM-9'}}" data-comkey="{{$k}}">上一步</view>
+          <view class="_p data-v-196bf37e cancel" bindtap="handleProxy" data-eventid="{{'rEq-10'}}" data-comkey="{{$k}}">取消</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

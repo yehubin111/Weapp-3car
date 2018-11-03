@@ -1,0 +1,113 @@
+
+.content.data-v-a9cb1d7e {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.content .title.data-v-a9cb1d7e {
+  font-size: 24rpx;
+  color: #666;
+  padding-left: 24rpx;
+  line-height: 40rpx;
+  height: 40rpx;
+}
+.content .picupload.data-v-a9cb1d7e {
+  height: 100rpx;
+  background-color: #fff;
+}
+.content .baseinfo .cardetail.data-v-a9cb1d7e {
+  line-height: 40rpx;
+  font-size: 26rpx;
+  padding: 10rpx 24rpx;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  position: inherit;
+}
+.content .buyinfo.data-v-a9cb1d7e {
+  background-color: #fff;
+}
+.content .buyinfo .buyline.data-v-a9cb1d7e {
+  margin-left: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 150rpx;
+}
+.content .buyinfo .buyline .close.data-v-a9cb1d7e {
+  -webkit-flex-basis: 80rpx;
+  flex-basis: 80rpx;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  height: 150rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.content .buyinfo .buyline .info.data-v-a9cb1d7e {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.content .buyinfo .buyline .info .name.data-v-a9cb1d7e {
+  font-size: 28rpx;
+  line-height: 44rpx;
+}
+.content .buyinfo .buyline .info .other.data-v-a9cb1d7e {
+  color: #666;
+  font-size: 24rpx;
+  line-height: 37rpx;
+}
+.content .buyinfo .addbuy.data-v-a9cb1d7e {
+  height: 90rpx;
+  background-color: #f4f8ff;
+  padding-left: 104rpx;
+}
+.content .buyinfo .addbuy ._p.data-v-a9cb1d7e {
+  padding-left: 42rpx;
+  font-size: 26rpx;
+  color: #5072b8;
+  background: left center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQyNTIzMjY1Q0QyNDExRTg4RDNDRUNBQTUwNUQyMURCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQyNTIzMjY2Q0QyNDExRTg4RDNDRUNBQTUwNUQyMURCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDI1MjMyNjNDRDI0MTFFODhEM0NFQ0FBNTA1RDIxREIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDI1MjMyNjRDRDI0MTFFODhEM0NFQ0FBNTA1RDIxREIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz78GxIgAAAFhElEQVR42tRbaWwVVRi9j81SbRGsFTH+cCGtEoyguCBplaDFYILFGI0CMeIaUVRijDGCYqJGKaI2gGiMgCuCSNSmdQkuEIsQUXGhKFJBrVUiUBAQi/V8mWPycv3mvel7c2fmneSEvm+m83ru8m13SHV1dZna6U3GIUrBKnAk/z0a7Mtr+8A2cBXYDH4AHuzuF6yoqwl8by+HQk8Cp4KTwQEZ7qsAz+fPP4PPg0+Cv7n4o3o4eKYM4uNgC3h7FrE2jgPvBb8D7y8EwUPBryi0Z57bYCa4BhwY9myEhTHgO2DK5/oh8BuwFdxB2zHgCeApPr8j+34j9/63SRJ8Hviuz7XN4NPgUvCnDPv9avAGLut0lIHrwUpwexKWdBm9rIaZdEpzMogVbAFngYPBJ5TrxVzeidjDDWBvy7YHHE0R3cF+7v8rlWvHgy/GLfhycIRiPyvDrAfBq/QJNq4CT4tTcL3PIGwKYeW8zxBlY15cgmvBcsu2HFwWoud/CNygOMiKOATfqNhudZArTFNsN0ctWJKKsy3bSubFYeNjJQZXRy14FHikZXvDYV7+mvVZYvLhUQoeothaHAq2n10Enhml4H6Krd2h4DafQiMywSmfXNkVOnyyr8gE71dsfR0K7qPYOqMUrI14uUPBg8LaQrkK/kKxVToUfKr1+W9wbZSC1yuOZIJDwXYxIXH5j6gzrWbrcw0rmrAxUpnhj+JILRcotqccCNaeOT8OwdLO2WrZxvvUsrniHnC4ZVttvFZRLOXhVMX2srIEc8GFrJZs3BJnPdzAEbfxKXhRHs+dxBWkDeaXcQoWjAP3WjZJ7OU444Fufkc/FviLlWut7HiYuAVLEnKBz7UZxmuq35XFg5/M5fu9T63bQW+dN8Jq00pclqZdo5IGngg+Cj4Cfs2Z2sXB7m+8TuXgDM/ezme3JUmwQJp2JczCKn1W01AyKD4Ja2ZdCJ7AEFIc4jMHcKmvpoNMhOCbGJ6GOEg6KhiLBeuYhCyJy2mN4R8xvxtipaTbCf5Cyl4Oeh48gt77Q/CcKGdY6t6F4MQs9+1lRfM2PfWPxjtE2w3+xSbCYQxhg+jFZUYvMV4j36++ruLeljPkaa4FiwN5JUuIaeJMNAaoaGTG/zTe4ffn4JvgbNbW4zmoVT6/e5vxetRyCNfiYklPMd6Blp/Y58AzwLHgS7mWb4QMwDPGa8dKSFrqc59838ba6U0Xhy34bvDZDDM6nAPymQPHJeHuCopvVq7LQV4DRE8KS/B9TBo03MEZ3WDcQ2rgc8EHfa4vhujL8hUsTkE78hQHdDo410SPGVzmu5VrdfkIHusjSNLDYUbva0WFVdxGdrq5K1fBx4JvKfY1FLvTxI8f+Le8xzAnR7TX5RqWJHbab+FIl2GUSRba2SgoX1FXE+i9Lm2Gr+XIaQE/kQgqVpCyXj0s5nK1Szw51V9mkgs5yXyYmVo9BuD1oDM8WxG7JOFiBStZxEgjYjkmcHQQwQOVboPkw9cnXGwfxud0VAcRrL3CMIseMMkQ57rHsh3MJljSM/v9DNnLj5nkowv8x7IdyiZY1v5R1rV6Uxg4oAhszxaHJyvX5iRQXIplY0mayN5KW6kGjusA709xFWyB916buvTOxhRTslIrUa9OmNgSdjuG5dOOkiVdaYk1Rm+Ex40peYoVzO3B1MzGugQK3hHCMzpEsP36j7RcNidQ8AvgIuOd/ucC+f8UE8Vp2a//bKXnSyKuMV7b9gg6LXFGRazi+qfdJ+F0HqPQf05rG5xWpwgusx66LeFhSDtysWe9FeJa/eKw/ZLZJlNYKFJqgtJMiUeRZdtXYIJTSl3fK5PgEmXECgmdyirtmUnwAibfwt/N/99cTTpk/y5M0/Cr9AT8bv5XgAEAVqYmaZMZdkUAAAAASUVORK5CYII=);
+  background-size: 30rpx auto;
+  line-height: 90rpx;
+}
+.content .notice.data-v-a9cb1d7e {
+  background-color: #fff;
+  margin-bottom: 70rpx;
+  line-height: 37rpx;
+  font-size: 22rpx;
+  padding: 16rpx 24rpx 20rpx;
+  text-align: justify;
+}
+.content .submit.data-v-a9cb1d7e {
+  padding: 0 60rpx;
+  margin-bottom: 200rpx;
+}

@@ -1,0 +1,78 @@
+<template name="88166484">
+  <view class="_view data-v-c7fb47e6 content">
+    <view wx:key="index" key="{{index}}" wx:for="{{cardetail}}" wx:for-index="index" wx:for-item="item" class="_div data-v-c7fb47e6">
+      <view class="_div data-v-c7fb47e6 focusbox">
+        <swiper class="_swiper data-v-c7fb47e6 focus" indicator-dots="true" indicator-color="rgba(255, 255, 255, .3)" indicator-active-color="#fff" autoplay="true" interval="5000" duration="500">
+          <swiper-item wx:key="idx" key="{{idx}}" wx:for="{{item.imgs}}" wx:for-index="idx" wx:for-item="g" class="_swiper-item data-v-c7fb47e6">
+            <image mode="scaleToFill" src="{{g.img}}" class="_image data-v-c7fb47e6 slide-image"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_div data-v-c7fb47e6 nameprice">
+        <view class="_p data-v-c7fb47e6 name">{{item.title}}</view>
+        <view class="_p data-v-c7fb47e6 price">
+          <view class="_view data-v-c7fb47e6">展厅标价</view>
+          <label class="_span data-v-c7fb47e6 baseprice">{{item.ztPrice}}万</label>
+          <view wx:if="{{item.lmPrice}}" class="_view data-v-c7fb47e6">联盟底价</view>
+          <label wx:if="{{item.lmPrice}}" class="_span data-v-c7fb47e6">{{item.lmPrice}}万</label>
+        </view>
+      </view>
+      <view class="_div data-v-c7fb47e6 baseinfo">
+        <view class="_p data-v-c7fb47e6 title"> 基本信息 </view>
+        <view class="_ul data-v-c7fb47e6 list">
+          <view class="_li data-v-c7fb47e6">
+            <view class="_p data-v-c7fb47e6 name">上牌时间</view>
+            <view class="_p data-v-c7fb47e6 value">{{item.spsj?item.spsj: '--'}}</view>
+          </view>
+          <view class="_li data-v-c7fb47e6">
+            <view class="_p data-v-c7fb47e6 name">表显里程</view>
+            <view class="_p data-v-c7fb47e6 value">{{item.mileage ?item.mileage + '万公里': '--'}}</view>
+          </view>
+          <view class="_li data-v-c7fb47e6">
+            <view class="_p data-v-c7fb47e6 name">所在地</view>
+            <view class="_p data-v-c7fb47e6 value">{{item.area?item.area: '--'}}</view>
+          </view>
+        </view>
+        <view class="_ul data-v-c7fb47e6 list list2">
+          <view class="_li data-v-c7fb47e6">
+            <view class="_p data-v-c7fb47e6 name">排量</view>
+            <view class="_p data-v-c7fb47e6 value">{{item.auto?item.auto: '--'}}</view>
+          </view>
+          <view class="_li data-v-c7fb47e6">
+            <view class="_p data-v-c7fb47e6 name">变速箱</view>
+            <view class="_p data-v-c7fb47e6 value">{{item.gear?item.gear: '--'}}</view>
+          </view>
+          <view class="_li data-v-c7fb47e6">
+            <view class="_p data-v-c7fb47e6 name">排放</view>
+            <view class="_p data-v-c7fb47e6 value">{{item.outType?item.outType: '--'}}</view>
+          </view>
+        </view>
+        <view class="_p data-v-c7fb47e6 line"></view>
+        <view class="_p data-v-c7fb47e6 introduce"> 车况描述：{{item.desc}} </view>
+      </view>
+      <view class="_div data-v-c7fb47e6 shop">
+        <view class="_p data-v-c7fb47e6 title"> 商家信息 </view>
+        <view class="_div data-v-c7fb47e6 shopinfo">
+          <view class="_p data-v-c7fb47e6 head">
+            <image src="{{item.shop.logo}}" class="_image data-v-c7fb47e6"></image>
+          </view>
+          <view class="_div data-v-c7fb47e6 info">
+            <view class="_p data-v-c7fb47e6 sname">{{item.shop.name?item.shop.name:'--'}}</view>
+            <view class="_p data-v-c7fb47e6 person">{{item.shop.boss?item.shop.boss:'--'}}</view>
+            <view class="_p data-v-c7fb47e6 local">{{item.shop.addr?item.shop.addr:'--'}}</view>
+            <view class="_p data-v-c7fb47e6 tel" catchtap="handleProxy" data-eventid="{{'5PX-0-'+index}}" data-comkey="{{$k}}"> 联系商家 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-c7fb47e6 picture">
+        <view class="_p data-v-c7fb47e6 title"> 车辆图片 </view>
+        <view class="_div data-v-c7fb47e6 list">
+          <image mode="widthFix" wx:key="idx2" key="{{idx2}}" src="{{img.img}}" wx:for="{{item.imgs}}" wx:for-index="idx2" wx:for-item="img" class="_image data-v-c7fb47e6"></image>
+        </view>
+      </view>
+      <view class="_div data-v-c7fb47e6 bottom">
+        <view catchtap="handleProxy" data-eventid="{{'N39-1-'+index}}" data-comkey="{{$k}}" class="_p data-v-c7fb47e6"> 联系商家 </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,17 @@
+<template name="0c9fb39e">
+  <view class="_view data-v-2ae0c122 carlist">
+    <navigator wx:key="item.id" key="{{item.id}}" class="_navigator data-v-2ae0c122 car" url="{{'/pages/cardetail/cardetail?id=' + item.id}}" wx:for="{{leaguecar}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-2ae0c122 con">
+        <view class="_p data-v-2ae0c122 pic">
+          <image src="{{item.images}}" alt class="_image data-v-2ae0c122"></image>
+        </view>
+        <view class="_div data-v-2ae0c122 info">
+          <view class="_p data-v-2ae0c122 name">{{item.title}}</view>
+          <view class="_p data-v-2ae0c122 tip">{{item.mileage}}万公里 | {{item.shop}}</view>
+          <view class="_p data-v-2ae0c122 price">{{item.ztPrice}}万</view>
+          <view class="_p data-v-2ae0c122 number" catchtap="handleProxy" data-eventid="{{'uSd-0-'+index}}" data-comkey="{{$k}}">联系商家</view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</template>

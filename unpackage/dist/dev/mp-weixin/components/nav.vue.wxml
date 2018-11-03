@@ -1,0 +1,16 @@
+<template name="1acc4668">
+  <view class="_view data-v-22d3ac46 navline">
+    <navigator open-type="reLaunch" url="/pages/index/index" class="_navigator data-v-22d3ac46 {{[true ? 'nav' : '', true ? 'nav1' : '', nav == 1 ? 'on' : '']}}">
+      <view class="_p data-v-22d3ac46 icon"></view>
+      <view class="_p data-v-22d3ac46 font">联盟车辆</view>
+    </navigator>
+    <navigator open-type="reLaunch" url="/pages/contract/contract" class="_navigator data-v-22d3ac46 {{[true ? 'nav' : '', true ? 'nav2' : '', nav == 2 ? 'on' : '']}}">
+      <view class="_p data-v-22d3ac46 icon"></view>
+      <view class="_p data-v-22d3ac46 font">合同签订</view>
+    </navigator>
+    <navigator open-type="reLaunch" url="/pages/person/person" class="_navigator data-v-22d3ac46 {{[true ? 'nav' : '', true ? 'nav3' : '', nav == 3 ? 'on' : '']}}">
+      <view class="_p data-v-22d3ac46 icon"></view>
+      <view class="_p data-v-22d3ac46 font">我的</view>
+    </navigator>
+  </view>
+</template>

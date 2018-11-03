@@ -1,0 +1,26 @@
+<template name="489014d0">
+  <view class="_view data-v-268000a1 upload">
+    <view class="_ul data-v-268000a1 list">
+      <view wx:key="index" key="{{index}}" wx:for="{{showImage}}" wx:for-index="index" wx:for-item="item" class="_li data-v-268000a1">
+        <view class="_p data-v-268000a1">
+          <image mode="aspectFit" src="{{item.name}}" class="_image data-v-268000a1"></image>
+          <view class="_i data-v-268000a1 shadow" wx:if="{{item.process < 100}}"></view>
+          <label class="_span data-v-268000a1 process" wx:if="{{item.process < 100}}">
+            <progress percent="{{item.process}}" border-radius="3" class="_progress data-v-268000a1" />
+          </label>
+          <icon type="clear" class="_icon data-v-268000a1 close" wx:if="{{item.process == 100}}" bindtap="handleProxy" data-eventid="{{'one-0-'+index}}" data-comkey="{{$k}}"></icon>
+        </view>
+      </view>
+      <view class="_li data-v-268000a1 add" wx:if="{{showImage.length < 16}}">
+        <view bindtap="handleProxy" data-eventid="{{'1Yb-1'}}" data-comkey="{{$k}}" class="_p data-v-268000a1">
+          <view class="_i data-v-268000a1 column"></view>
+          <view class="_i data-v-268000a1 row"></view>
+        </view>
+      </view>
+    </view>
+    <canvas canvas-id="photo_canvas" class="_canvas data-v-268000a1" style=" {{(  'width:' +  '1000px' +  ';' +  'height:' +  '1000px' +  ';' +  'position:' +  'absolute' +  ';' +  'left:' +  '-1000px' +  ';' +  'top:' +  '-1000px;' +  ';')}}"></canvas>
+    <view class="_div data-v-268000a1 button">
+      <view class="_p data-v-268000a1 cancel" bindtap="handleProxy" data-eventid="{{'Q65-2'}}" data-comkey="{{$k}}">确定</view>
+    </view>
+  </view>
+</template>

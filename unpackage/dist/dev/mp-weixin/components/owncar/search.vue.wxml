@@ -1,0 +1,14 @@
+<import src="/components/index/carsearch.vue.wxml" />
+<template name="3809009c">
+  <view class="_div data-v-7c2928fa searchline">
+    <view class="_div data-v-7c2928fa search" catchtap="handleProxy" data-eventid="{{'aJB-0'}}" data-comkey="{{$k}}">
+      <label class="_span data-v-7c2928fa">{{keyword? keyword : '品牌、型号'}}</label>
+    </view>
+    <view class="_div data-v-7c2928fa searchbox" hidden="{{!(searchshow)}}">
+      <template bindcancelSearch="handleProxy" bindtoSearch="handleProxy" data-eventid="{{'t0n-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'RnV-0'],$root}}" is="625b99a8"></template>
+    </view>
+    <view class="_div data-v-7c2928fa publiccar">
+      <navigator class="_navigator data-v-7c2928fa public" url="/pages/public/public"> 快速发车 </navigator>
+    </view>
+  </view>
+</template>

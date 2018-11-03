@@ -1,0 +1,16 @@
+<template name="5a7fa7b4">
+  <view class="_view data-v-9a648b16">
+    <view class="_div data-v-9a648b16 selled">
+      <view class="_p data-v-9a648b16 title">设置成交价格</view>
+      <view class="_p data-v-9a648b16 input">
+        <input type="digit" value="{{price}}" bindinput="handleProxy" placeholder="请输入成交价格" data-eventid="{{'L5N-0'}}" data-comkey="{{$k}}" class="_input data-v-9a648b16" />
+        <label class="_span data-v-9a648b16">万元</label>
+      </view>
+      <view class="_p data-v-9a648b16 button">
+        <label class="_span data-v-9a648b16 cancel" bindtap="handleProxy" data-eventid="{{'fTs-1'}}" data-comkey="{{$k}}">取消</label>
+        <label class="_span data-v-9a648b16 sure" bindtap="handleProxy" data-eventid="{{'gfj-2'}}" data-comkey="{{$k}}">确定</label>
+      </view>
+    </view>
+    <view class="_div data-v-9a648b16 shadow"></view>
+  </view>
+</template>
