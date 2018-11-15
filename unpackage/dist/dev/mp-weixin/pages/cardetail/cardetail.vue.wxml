@@ -60,7 +60,7 @@
             <view class="_p data-v-c7fb47e6 sname">{{item.shop.name?item.shop.name:'--'}}</view>
             <view class="_p data-v-c7fb47e6 person">{{item.shop.boss?item.shop.boss:'--'}}</view>
             <view class="_p data-v-c7fb47e6 local">{{item.shop.addr?item.shop.addr:'--'}}</view>
-            <view class="_p data-v-c7fb47e6 tel" catchtap="handleProxy" data-eventid="{{'5PX-0-'+index}}" data-comkey="{{$k}}"> 联系商家 </view>
+            <view class="_p data-v-c7fb47e6 tel" catchtap="handleProxy" data-eventid="{{'Tm7-0-'+index}}" data-comkey="{{$k}}"> 联系商家 </view>
           </view>
         </view>
       </view>
@@ -71,7 +71,7 @@
         </view>
       </view>
       <view class="_div data-v-c7fb47e6 bottom">
-        <view catchtap="handleProxy" data-eventid="{{'N39-1-'+index}}" data-comkey="{{$k}}" class="_p data-v-c7fb47e6"> 联系商家 </view>
+        <view catchtap="handleProxy" data-eventid="{{'DA4-1-'+index}}" data-comkey="{{$k}}" class="_p data-v-c7fb47e6"> 联系商家 </view>
       </view>
     </view>
   </view>

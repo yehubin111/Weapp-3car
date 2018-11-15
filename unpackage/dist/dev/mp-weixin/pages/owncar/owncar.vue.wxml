@@ -3,8 +3,8 @@
 <import src="/components/owncar/carlist.vue.wxml" />
 <template name="adfe4f1c">
   <view class="_view data-v-4caf0e01 content">
-    <template ref="mineSearch" bindkeywordSearch="handleProxy" data-eventid="{{'kMf-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'pro-0'],$root}}" is="3809009c"></template>
-    <template ref="mineSort" bindsortFilter="handleProxy" data-eventid="{{'JBG-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'4xd-1'],$root}}" is="2f0e5928"></template>
-    <template ref="owncarlist" data="{{...$root['0'], ...$root[$kk+'7X6-2'],$root}}" is="392c42d8"></template>
+    <template ref="mineSearch" bindkeywordSearch="handleProxy" data-eventid="{{'NYV-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'NLh-0'],$root}}" is="3809009c"></template>
+    <template ref="mineSort" bindsortFilter="handleProxy" data-eventid="{{'skM-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'gxj-1'],$root}}" is="2f0e5928"></template>
+    <template ref="owncarlist" data="{{...$root['0'], ...$root[$kk+'UTl-2'],$root}}" is="392c42d8"></template>
   </view>
 </template>

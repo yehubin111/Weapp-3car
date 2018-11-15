@@ -148,8 +148,10 @@
 				this.filtraoption = option;
 				
 				for(let i in selectname) {
-					if(selectname[i])
+					if(selectname[i]){
+						this.keyoption = this.keyoption.filter(v => v.key != i);
 						this.keyoption.push({key: i, val: selectname[i]});
+					}
 				}
 				
 				this.toSortFilter();

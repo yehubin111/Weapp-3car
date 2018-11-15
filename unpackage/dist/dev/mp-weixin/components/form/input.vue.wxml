@@ -2,7 +2,7 @@
   <view class="_view data-v-7ba7a016 selectline">
     <view class="_div data-v-7ba7a016 line">
       <label class="_span data-v-7ba7a016 title" style=" {{('font-size:' + (fontSize + 'rpx') + ';')}}">{{name}}</label>
-      <input class="_input data-v-7ba7a016 input" type="text" value="{{state}}" bindinput="handleProxy" disabled="{{readonly}}" placeholder="{{'请输入'+(placeholder?placeholder:name)}}" placeholder-style="color: #999;line-height: 40px" data-eventid="{{'LU7-0'}}"
+      <input class="_input data-v-7ba7a016 input" type="text" value="{{state}}" bindinput="handleProxy" disabled="{{readonly}}" placeholder="{{'请输入'+(placeholder?placeholder:name)}}" placeholder-style="color: #999;line-height: 40px" data-eventid="{{'Fvb-0'}}"
         data-comkey="{{$k}}" />
       <label class="_span data-v-7ba7a016 unit">{{unit}}</label>
     </view>

@@ -3,18 +3,18 @@
     <view class="_div data-v-2311090e selled">
       <view class="_p data-v-2311090e title">选择买家</view>
       <view class="_p data-v-2311090e input">
-        <input value="{{buyername}}" bindinput="handleProxy" placeholder="请输入买家姓名" data-eventid="{{'jzd-0'}}" data-comkey="{{$k}}" class="_input data-v-2311090e" />
-        <label bindtap="handleProxy" data-eventid="{{'Duj-1'}}" data-comkey="{{$k}}" class="_span data-v-2311090e">确定</label>
+        <input value="{{buyername}}" bindinput="handleProxy" placeholder="请输入买家姓名" data-eventid="{{'lOe-0'}}" data-comkey="{{$k}}" class="_input data-v-2311090e" />
+        <label bindtap="handleProxy" data-eventid="{{'xY2-1'}}" data-comkey="{{$k}}" class="_span data-v-2311090e">确定</label>
       </view>
       <scroll-view scroll-y="{{true}}" class="_scroll-view data-v-2311090e result" hidden="{{!(buyers.length > 0)}}">
-        <view wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'Yjw-2-'+index}}" data-comkey="{{$k}}" wx:for="{{buyerlist}}" wx:for-index="index" wx:for-item="item" class="_div data-v-2311090e">
+        <view wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'at8-2-'+index}}" data-comkey="{{$k}}" wx:for="{{buyerlist}}" wx:for-index="index" wx:for-item="item" class="_div data-v-2311090e">
           <view class="_p data-v-2311090e name">{{item.name}}</view>
           <view class="_p data-v-2311090e tel">{{item.phone}}</view>
         </view>
       </scroll-view>
       <view class="_p data-v-2311090e nobuyer" hidden="{{!(ifsearch && buyers.length == 0)}}">未找到相关买家信息</view>
       <view class="_p data-v-2311090e button">
-        <label class="_span data-v-2311090e cancel" bindtap="handleProxy" data-eventid="{{'VdN-3'}}" data-comkey="{{$k}}">取消</label>
+        <label class="_span data-v-2311090e cancel" bindtap="handleProxy" data-eventid="{{'FDF-3'}}" data-comkey="{{$k}}">取消</label>
       </view>
     </view>
     <view class="_div data-v-2311090e shadow"></view>

@@ -9,7 +9,7 @@
 			<cv-input :defaultData="formData.mileage" ref="mileage" name="公里数" unit="万公里" type="mileage" @inputChange="listChange"></cv-input>
 			<cv-date :defaultData="formData.spsj" ref="spsj" name="上牌日期" type="spsj" @listChange="listChange"></cv-date>
 			<cv-date :defaultData="formData.ccsj" ref="ccsj" name="出厂日期" type="ccsj" @listChange="listChange"></cv-date>
-			<cv-input ref="belongArea" name="初次登记地" type="belongArea" @inputChange="listChange" placeholder="初次登记地，非必选"></cv-input>
+			<cv-input ref="belongArea" name="初次登记地" type="belongArea" @inputChange="listChange" placeholder="初次登记地，非必填"></cv-input>
 			<!-- <cv-area ref="belongArea" name="初次登记地" type="belongArea" @listChange="listChange" placeholder="初次登记地，非必选"></cv-area> -->
 			<cv-radio ref="carNature" name="使用性质" type="carNature" @radioChange="listChange" :list="[{key: '非营运', val: '非营运', checked: true},{key: '营运', val: '营运'},{key: '租赁', val: '租赁'}]"></cv-radio>
 			<cv-input ref="ghNum" name="过户次数" unit="次" type="ghNum" @inputChange="listChange"></cv-input>
@@ -193,27 +193,13 @@
 				let obj = JSON.parse(n);
 				if (obj.hasOwnProperty('title')) {
 					this.brand = obj.title.replace(obj.spsj, '').trim();
-					this.formData = {
-						brandId: obj.brandId,
-						typeId: obj.typeId,
-						// 						vin: '',
-						// 						engineNo: '',
-						// 						ghNum: '',
-						color: obj.color,
-						// 						keyNum: '',
-						// 						cjPrice: '',
-						// 						name: '',
-						// 						card: '',
-						// 						bank: '',
-						// 						seller: '',
-						// 						sellerIdCard: '',
-						// 						sellerPhone: '',
-						// 						belongArea: '',
-						mileage: obj.mileage,
-						spsj: obj.spsj.replace('月', '').replace('年', '-'),
-						ccsj: obj.ccsj.replace('月', '').replace('年', '-'),
-						desc: obj.desc
-					}
+					this.formData.brandId = obj.brandId;
+					this.formData.typeId = obj.typeId;
+					this.formData.color = obj.color;
+					this.formData.mileage = obj.mileage;
+					this.formData.spsj = obj.spsj.replace('月', '').replace('年', '-');
+					this.formData.ccsj = obj.ccsj.replace('月', '').replace('年', '-');
+					this.formData.desc = obj.desc;
 				}
 			},
 		},

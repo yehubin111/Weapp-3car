@@ -1489,9 +1489,9 @@
   text-align: right;
 }
 .selectline .line .input.data-v-7ba7a016 {
-  -webkit-flex-basis: 300rpx;
-  flex-basis: 300rpx;
-  width: 300rpx;
+  -webkit-flex-basis: 320rpx;
+  flex-basis: 320rpx;
+  width: 320rpx;
   margin-right: 10rpx;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;

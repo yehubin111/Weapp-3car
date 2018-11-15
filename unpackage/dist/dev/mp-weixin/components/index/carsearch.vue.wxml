@@ -1,14 +1,14 @@
 <template name="625b99a8">
   <view class="_view data-v-f800558e search">
     <view class="_div data-v-f800558e searchbox">
-      <view class="_div data-v-f800558e icon" bindtap="handleProxy" data-eventid="{{'SKF-0'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-f800558e icon" bindtap="handleProxy" data-eventid="{{'QcC-0'}}" data-comkey="{{$k}}">
         <icon class="_icon data-v-f800558e cancel" type="cancel" color="#999"></icon>
       </view>
       <view class="_div data-v-f800558e input">
         <view class="_i data-v-f800558e icon"></view>
-        <input type="text" value="{{kword}}" bindinput="handleProxy" placeholder="请输入关键字" data-eventid="{{'td3-1'}}" data-comkey="{{$k}}" class="_input data-v-f800558e" />
+        <input type="text" value="{{kword}}" bindinput="handleProxy" placeholder="请输入关键字" data-eventid="{{'jAP-1'}}" data-comkey="{{$k}}" class="_input data-v-f800558e" />
       </view>
-      <label class="_span data-v-f800558e tosearch" bindtap="handleProxy" data-eventid="{{'Qba-2'}}" data-comkey="{{$k}}">搜索</label>
+      <label class="_span data-v-f800558e tosearch" bindtap="handleProxy" data-eventid="{{'IwP-2'}}" data-comkey="{{$k}}">搜索</label>
     </view>
   </view>
 </template>

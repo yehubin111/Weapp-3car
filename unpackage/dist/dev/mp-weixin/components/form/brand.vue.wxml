@@ -1,14 +1,14 @@
 <import src="/components/index/brandtype.vue.wxml" />
 <template name="86ec213a">
   <view class="_view data-v-2d80fd32 selectline">
-    <view class="_div data-v-2d80fd32 line" bindtap="handleProxy" data-eventid="{{'Xu1-0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-2d80fd32 line" bindtap="handleProxy" data-eventid="{{'3Ko-0'}}" data-comkey="{{$k}}">
       <label class="_span data-v-2d80fd32 title">品牌型号</label>
       <label class="_span data-v-2d80fd32 value" style=" {{('color:' + activeColor + ';')}}">{{brand?brand:'请选择品牌型号'}}
         <view class="_i data-v-2d80fd32 arrow"></view>
       </label>
     </view>
     <view hidden="{{!(brandshow)}}" class="_div data-v-2d80fd32">
-      <template bindselectBrand="handleProxy" bindcancelBrand="handleProxy" data-eventid="{{'tzB-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'PLe-0'],$root}}" is="10709026"></template>
+      <template bindselectBrand="handleProxy" bindcancelBrand="handleProxy" data-eventid="{{'PLj-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'22E-0'],$root}}" is="10709026"></template>
     </view>
   </view>
 </template>

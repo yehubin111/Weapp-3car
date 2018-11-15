@@ -3,35 +3,35 @@
 <template name="577fe3bc">
   <view class="_view data-v-45371bf1 sort" id="Sort">
     <view class="_view data-v-45371bf1 sortline">
-      <view class="_div data-v-45371bf1 filter" catchtap="handleProxy" data-eventid="{{'dva-0'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-45371bf1 filter" catchtap="handleProxy" data-eventid="{{'T6n-0'}}" data-comkey="{{$k}}">
         <view class="_p data-v-45371bf1">{{filterval}}</view>
       </view>
-      <view class="_div data-v-45371bf1 sort" catchtap="handleProxy" data-eventid="{{'CIW-1'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-45371bf1 sort" catchtap="handleProxy" data-eventid="{{'Te5-1'}}" data-comkey="{{$k}}">
         <view class="_p data-v-45371bf1">{{showoption.brand == '不限'? '品牌' : showoption.brand}}</view>
       </view>
-      <view class="_div data-v-45371bf1 sort" catchtap="handleProxy" data-eventid="{{'2Cc-2'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-45371bf1 sort" catchtap="handleProxy" data-eventid="{{'LUM-2'}}" data-comkey="{{$k}}">
         <view class="_p data-v-45371bf1">{{showoption.carType == '不限'? '车型' : showoption.carType}}</view>
       </view>
-      <view class="_div data-v-45371bf1 sort" catchtap="handleProxy" data-eventid="{{'2ox-3'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-45371bf1 sort" catchtap="handleProxy" data-eventid="{{'hk1-3'}}" data-comkey="{{$k}}">
         <view class="_p data-v-45371bf1">{{showoption.price == '不限'? '价格' : showoption.price}}</view>
       </view>
-      <view class="_div data-v-45371bf1 sortbox" catchtap="handleProxy" data-eventid="{{'sUc-4'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-45371bf1 sortbox" catchtap="handleProxy" data-eventid="{{'lEN-4'}}" data-comkey="{{$k}}">
         <view class="_p data-v-45371bf1">筛选</view>
       </view>
       <view class="_div data-v-45371bf1 filterlist" hidden="{{!(allshow.filtershow)}}">
-        <view wx:key="item.key" key="{{item.key}}" bindtap="handleProxy" data-eventid="{{'X1Q-5-'+index}}" data-comkey="{{$k}}" wx:for="{{filterlist}}" wx:for-index="index" wx:for-item="item" class="_p data-v-45371bf1 {{[filterkey == item.key ? 'on' : '']}}">{{item.val}}</view>
+        <view wx:key="item.key" key="{{item.key}}" bindtap="handleProxy" data-eventid="{{'mAU-5-'+index}}" data-comkey="{{$k}}" wx:for="{{filterlist}}" wx:for-index="index" wx:for-item="item" class="_p data-v-45371bf1 {{[filterkey == item.key ? 'on' : '']}}">{{item.val}}</view>
       </view>
       <view class="_div data-v-45371bf1 cartypelist" hidden="{{!(allshow.carTypeshow)}}">
-        <view wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'1J4-6-'+index}}" data-comkey="{{$k}}" wx:for="{{carTypelist}}" wx:for-index="index" wx:for-item="item" class="_p data-v-45371bf1 {{[showoption.carType == item ? 'on' : '']}}">{{item}}</view>
+        <view wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'ks1-6-'+index}}" data-comkey="{{$k}}" wx:for="{{carTypelist}}" wx:for-index="index" wx:for-item="item" class="_p data-v-45371bf1 {{[showoption.carType == item ? 'on' : '']}}">{{item}}</view>
       </view>
       <view class="_div data-v-45371bf1 pricelist" hidden="{{!(allshow.priceshow)}}">
-        <view wx:key="item.key" key="{{item.key}}" bindtap="handleProxy" data-eventid="{{'KSq-7-'+index}}" data-comkey="{{$k}}" wx:for="{{pricelist}}" wx:for-index="index" wx:for-item="item" class="_p data-v-45371bf1 {{[showoption.price == item.val ? 'on' : '']}}">{{item.val}}</view>
+        <view wx:key="item.key" key="{{item.key}}" bindtap="handleProxy" data-eventid="{{'HEl-7-'+index}}" data-comkey="{{$k}}" wx:for="{{pricelist}}" wx:for-index="index" wx:for-item="item" class="_p data-v-45371bf1 {{[showoption.price == item.val ? 'on' : '']}}">{{item.val}}</view>
       </view>
       <view hidden="{{!(allshow.brandshow)}}" class="_div data-v-45371bf1">
-        <template bindselectBrand="handleProxy" bindcancelBrand="handleProxy" data-eventid="{{'q8d-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'TjW-0'],$root}}" is="10709026"></template>
+        <template bindselectBrand="handleProxy" bindcancelBrand="handleProxy" data-eventid="{{'VDH-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'iPd-0'],$root}}" is="10709026"></template>
       </view>
       <view hidden="{{!(allshow.filtrateshow)}}" class="_div data-v-45371bf1">
-        <template ref="filtratebox" bindcancelFiltrate="handleProxy" bindtoFiltra="handleProxy" data-eventid="{{'Wd5-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'G2U-1'],$root}}" is="ff340da8"></template>
+        <template ref="filtratebox" bindcancelFiltrate="handleProxy" bindtoFiltra="handleProxy" data-eventid="{{'WwT-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'iw3-1'],$root}}" is="ff340da8"></template>
       </view>
     </view>
     <view class="_view data-v-45371bf1 conditionline">
@@ -39,12 +39,12 @@
         <scroll-view scroll-x class="_scroll-view data-v-45371bf1 condition">
           <view wx:key="item.key" key="{{item.key}}" wx:for="{{keyoption}}" wx:for-index="index" wx:for-item="item" class="_p data-v-45371bf1">
             <label class="_span data-v-45371bf1">{{item.val}}
-              <view class="_i data-v-45371bf1 close" bindtap="handleProxy" data-eventid="{{'tvt-10-'+index}}" data-comkey="{{$k}}"></view>
+              <view class="_i data-v-45371bf1 close" bindtap="handleProxy" data-eventid="{{'wLM-10-'+index}}" data-comkey="{{$k}}"></view>
             </label>
           </view>
         </scroll-view>
       </view>
-      <view class="_p data-v-45371bf1 reset" bindtap="handleProxy" data-eventid="{{'C92-11'}}" data-comkey="{{$k}}">重置</view>
+      <view class="_p data-v-45371bf1 reset" bindtap="handleProxy" data-eventid="{{'xsq-11'}}" data-comkey="{{$k}}">重置</view>
     </view>
   </view>
 </template>

@@ -71,7 +71,7 @@
             <label class="_span data-v-7f6adffe val">{{info.desc}}</label>
           </view>
         </view>
-        <view class="_div data-v-7f6adffe moreinfo" bindtap="handleProxy" data-eventid="{{'Tw8-0'}}" data-comkey="{{$k}}">{{infodetail? '隐藏详细信息':'查看详细信息'}}</view>
+        <view class="_div data-v-7f6adffe moreinfo" bindtap="handleProxy" data-eventid="{{'bjx-0'}}" data-comkey="{{$k}}">{{infodetail? '隐藏详细信息':'查看详细信息'}}</view>
       </view>
     </view>
     <view class="_div data-v-7f6adffe otherinfo">

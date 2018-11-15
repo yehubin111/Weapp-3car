@@ -2,7 +2,7 @@
   <view class="_view data-v-22996ba6 selectline">
     <view class="_div data-v-22996ba6 line">
       <label class="_span data-v-22996ba6 title">{{name}}</label>
-      <radio-group class="_radio-group data-v-22996ba6 radiogroup" bindchange="handleProxy" data-eventid="{{'bLB-0'}}" data-comkey="{{$k}}">
+      <radio-group class="_radio-group data-v-22996ba6 radiogroup" bindchange="handleProxy" data-eventid="{{'3fK-0'}}" data-comkey="{{$k}}">
         <label class="_label data-v-22996ba6 radio" wx:key="item.id" key="{{item.id}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
           <radio value="{{item.key}}" checked="{{item.checked}}" class="_radio data-v-22996ba6" />{{item.val}} </label>
       </radio-group>

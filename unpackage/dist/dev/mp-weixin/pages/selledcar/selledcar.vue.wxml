@@ -2,7 +2,7 @@
 <import src="/components/nav.vue.wxml" />
 <template name="4891a50c">
   <view class="_view data-v-8876886e content">
-    <template data="{{...$root['0'], ...$root[$kk+'hLm-0'],$root}}" is="3366478f"></template>
-    <template data="{{...$root['0'], ...$root[$kk+'c88-1'],$root}}" is="1acc4668"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'JN6-0'],$root}}" is="3366478f"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'n2T-1'],$root}}" is="1acc4668"></template>
   </view>
 </template>

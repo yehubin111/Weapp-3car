@@ -1,11 +1,11 @@
 <import src="/components/index/carsearch.vue.wxml" />
 <template name="0393de2c">
   <view class="_div data-v-12feb43b searchline">
-    <view class="_div data-v-12feb43b search" catchtap="handleProxy" data-eventid="{{'2kI-0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-12feb43b search" catchtap="handleProxy" data-eventid="{{'a80-0'}}" data-comkey="{{$k}}">
       <label class="_span data-v-12feb43b">{{keyword? keyword : '品牌、型号'}}</label>
     </view>
     <view class="_div data-v-12feb43b searchbox" hidden="{{!(searchshow)}}">
-      <template bindcancelSearch="handleProxy" bindtoSearch="handleProxy" data-eventid="{{'eEQ-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'itX-0'],$root}}" is="625b99a8"></template>
+      <template bindcancelSearch="handleProxy" bindtoSearch="handleProxy" data-eventid="{{'bqw-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'CCh-0'],$root}}" is="625b99a8"></template>
     </view>
     <navigator class="_navigator data-v-12feb43b sellcar" url="/pages/selledcar/selledcar"> 成交车辆 </navigator>
   </view>

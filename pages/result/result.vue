@@ -2,6 +2,7 @@
 	<view class="content">
 		<result-contract :info="info" :contractNo="contractNo"></result-contract>
 		<result-signature :info="info"></result-signature>
+		<page-nav></page-nav>
 	</view>
 </template>
 
@@ -56,5 +57,6 @@
 		flex-direction: column;
 		width: 100%;
 		height: 100%;
+		padding-bottom: 100px;
 	}
 </style>

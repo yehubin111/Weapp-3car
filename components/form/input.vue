@@ -85,8 +85,8 @@
 				text-align: right;
 			}
 			.input{
-				flex-basis: 300px;
-				width: 300px;
+				flex-basis: 320px;
+				width: 320px;
 				margin-right: 10px;
 				flex-shrink: 0;
 				height: 86px;

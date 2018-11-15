@@ -31,6 +31,15 @@
 		computed: {
 			...mapState(['errorinfo'])
 		},
+		onLoad() {
+			let openid = wx.getStorageSync('3car_openid');
+			// return;
+			if(openid){
+				wx.showLoading({title: ''});
+				
+				this.$store.dispatch('openidLogin', openid);
+			}
+		},
 		mounted() {
 			let that = this;
 			wx.login({

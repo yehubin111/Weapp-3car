@@ -2,15 +2,15 @@
   <view class="_view data-v-960d92d6 content">
     <view class="_div data-v-960d92d6 welcome">欢迎登录</view>
     <view class="_div data-v-960d92d6 username {{[nousername ? 'on' : '']}}">
-      <input type="text" name value="{{username}}" bindinput="handleProxy" placeholder="请输入您的用户名" id data-eventid="{{'322-0'}}" data-comkey="{{$k}}" class="_input data-v-960d92d6" />
+      <input type="text" name value="{{username}}" bindinput="handleProxy" placeholder="请输入您的用户名" id data-eventid="{{'2b6-0'}}" data-comkey="{{$k}}" class="_input data-v-960d92d6" />
       <view class="_p data-v-960d92d6 tip">用户名不能为空</view>
     </view>
     <view class="_div data-v-960d92d6 password {{[nopassword ? 'on' : '']}}">
-      <input type="password" name value="{{password}}" bindinput="handleProxy" placeholder="请输入您的密码" id data-eventid="{{'2N7-1'}}" data-comkey="{{$k}}" class="_input data-v-960d92d6" />
+      <input type="password" name value="{{password}}" bindinput="handleProxy" placeholder="请输入您的密码" id data-eventid="{{'6xR-1'}}" data-comkey="{{$k}}" class="_input data-v-960d92d6" />
       <view class="_p data-v-960d92d6 tip">密码不能为空</view>
     </view>
     <view class="_div data-v-960d92d6 button">
-      <button type="warn" bindtap="handleProxy" data-eventid="{{'rAm-2'}}" data-comkey="{{$k}}" class="_button data-v-960d92d6">马上登录</button>
+      <button type="warn" bindtap="handleProxy" data-eventid="{{'S5o-2'}}" data-comkey="{{$k}}" class="_button data-v-960d92d6">马上登录</button>
       <view class="_p data-v-960d92d6 error" hidden="{{!(errorinfo)}}">{{errorinfo}}</view>
     </view>
   </view>

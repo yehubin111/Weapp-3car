@@ -1,12 +1,12 @@
 <template name="613623b8">
   <view class="_view data-v-a11b071a content">
     <view class="_div data-v-a11b071a drawarea">
-      <canvas canvas-id="firstCanvas" bindtouchend="handleProxy" bindtouchstart="handleProxy" bindtouchmove="handleProxy" class="_canvas data-v-a11b071a board" data-eventid="{{'T2o-0'}}" data-comkey="{{$k}}"></canvas>
+      <canvas canvas-id="firstCanvas" bindtouchend="handleProxy" bindtouchstart="handleProxy" bindtouchmove="handleProxy" class="_canvas data-v-a11b071a board" data-eventid="{{'ikg-0'}}" data-comkey="{{$k}}"></canvas>
       <view class="_p data-v-a11b071a">请在上方灰色区域内签上您的姓名</view>
     </view>
     <view class="_div data-v-a11b071a ctrl">
-      <button type="default" class="_button data-v-a11b071a clear" bindtap="handleProxy" data-eventid="{{'1U9-1'}}" data-comkey="{{$k}}">清空</button>
-      <button type="warn" bindtap="handleProxy" data-eventid="{{'5Wk-2'}}" data-comkey="{{$k}}" class="_button data-v-a11b071a">下一步</button>
+      <button type="default" class="_button data-v-a11b071a clear" bindtap="handleProxy" data-eventid="{{'uNV-1'}}" data-comkey="{{$k}}">清空</button>
+      <button type="warn" bindtap="handleProxy" data-eventid="{{'YK6-2'}}" data-comkey="{{$k}}" class="_button data-v-a11b071a">下一步</button>
     </view>
   </view>
 </template>

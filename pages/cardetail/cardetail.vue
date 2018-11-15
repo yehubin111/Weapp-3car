@@ -100,7 +100,8 @@
 	export default {
 		data() {
 			return {
-				carid: ''
+				carid: '',
+				openid: wx.getStorageSync('3car_openid')
 			}
 		},
 		// 右上角分享事件
@@ -108,15 +109,17 @@
 			let obj = this.cardetail[0];
 			return { 
 				title: obj.title,
-				imageUrl: obj.imgs[0].img
+				imageUrl: obj.imgs[0].img,
+				path: `/pages/cardetail/cardetail?id=${this.carid}&openid=${this.openid}`
 			}
 		},
 		onLoad(e) {
 			console.log(e);
-			// 初始化获取车辆id
+			// 初始化获取车辆id 分享的车辆带有openid，用于获取分享人的信息
 			this.carid = e.id;
+			let openid = e.openid;
 			// 根据id获取车辆信息
-			this.$store.dispatch('getCardetail', this.carid);
+			this.$store.dispatch('getCardetail', {carid: this.carid, openid});
 		},
 		methods: {
 			makePhoneCall(num) {

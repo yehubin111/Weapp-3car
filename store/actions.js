@@ -137,11 +137,12 @@ export default {
 	getCardetail({
 		state,
 		commit
-	}, id) {
+	}, {carid, openid}) {
 		let url = URL.cardetail;
 
 		wxRequest(url, {
-			id
+			id:carid,
+			zfOpenId: openid
 		}, (res) => {
 			commit('CARDETAIL', {
 				r: res.data

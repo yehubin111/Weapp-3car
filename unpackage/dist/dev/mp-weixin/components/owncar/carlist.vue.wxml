@@ -14,12 +14,12 @@
           <view class="_p data-v-1939d127 sellinfo">联盟底价
             <label class="_span data-v-1939d127">{{item.lmPrice}}万</label>
           </view>
-          <button class="_button data-v-1939d127 ctrl" catchtap="handleProxy" data-eventid="{{'eXh-0-'+index}}" data-comkey="{{$k}}"></button>
+          <button class="_button data-v-1939d127 ctrl" catchtap="handleProxy" data-eventid="{{'hOl-0-'+index}}" data-comkey="{{$k}}"></button>
         </view>
       </view>
     </navigator>
     <view hidden="{{!(sellConfirm)}}" class="_div data-v-1939d127">
-      <template bindcancelConfirm="handleProxy" data-eventid="{{'u1Y-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'mlQ-0'],$root}}" is="5a7fa7b4"></template>
+      <template bindcancelConfirm="handleProxy" data-eventid="{{'C6o-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'WAi-0'],$root}}" is="5a7fa7b4"></template>
     </view>
   </view>
 </template>

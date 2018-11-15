@@ -1,6 +1,6 @@
 <template name="78c52ef2">
   <view class="_view data-v-4addab43 selectline">
-    <picker class="_picker data-v-4addab43 picker" mode="selector" value="{{index}}" range="{{dataArray[type]}}" range-key="{{dataType == 'object'?'name': ''}}" bindchange="handleProxy" data-eventid="{{'d1R-0'}}" data-comkey="{{$k}}">
+    <picker class="_picker data-v-4addab43 picker" mode="selector" value="{{index}}" range="{{dataArray[type]}}" range-key="{{dataType == 'object'?'name': ''}}" bindchange="handleProxy" data-eventid="{{'p9d-0'}}" data-comkey="{{$k}}">
       <view class="_div data-v-4addab43 line">
         <label class="_span data-v-4addab43 title">{{name}}</label>
         <label class="_span data-v-4addab43 value" style=" {{('color:' + activeColor + ';')}}">{{info}}

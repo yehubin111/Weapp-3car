@@ -9,7 +9,7 @@
           <view class="_p data-v-2ae0c122 name">{{item.title}}</view>
           <view class="_p data-v-2ae0c122 tip">{{item.mileage}}万公里 | {{item.shop}}</view>
           <view class="_p data-v-2ae0c122 price">{{item.ztPrice}}万</view>
-          <view class="_p data-v-2ae0c122 number" catchtap="handleProxy" data-eventid="{{'uSd-0-'+index}}" data-comkey="{{$k}}">联系商家</view>
+          <view class="_p data-v-2ae0c122 number" catchtap="handleProxy" data-eventid="{{'4pA-0-'+index}}" data-comkey="{{$k}}">联系商家</view>
         </view>
       </view>
     </navigator>

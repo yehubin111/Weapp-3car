@@ -23,16 +23,16 @@
             <view class="_p data-v-805a3fbe font">我的成交</view>
           </navigator>
         </view>
-        <view bindtap="handleProxy" data-eventid="{{'wl9-0'}}" data-comkey="{{$k}}" class="_li data-v-805a3fbe">
+        <view bindtap="handleProxy" data-eventid="{{'ZwO-0'}}" data-comkey="{{$k}}" class="_li data-v-805a3fbe">
           <view class="_p data-v-805a3fbe icon icon2"></view>
           <view class="_p data-v-805a3fbe font">私人订制</view>
         </view>
-        <view bindtap="handleProxy" data-eventid="{{'egQ-1'}}" data-comkey="{{$k}}" class="_li data-v-805a3fbe">
+        <view bindtap="handleProxy" data-eventid="{{'QPr-1'}}" data-comkey="{{$k}}" class="_li data-v-805a3fbe">
           <view class="_p data-v-805a3fbe icon icon3"></view>
           <view class="_p data-v-805a3fbe font">客户管理</view>
         </view>
       </view>
     </view>
-    <template data="{{...$root['0'], ...$root[$kk+'tCq-0'],$root}}" is="1acc4668"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'3zz-0'],$root}}" is="1acc4668"></template>
   </view>
 </template>

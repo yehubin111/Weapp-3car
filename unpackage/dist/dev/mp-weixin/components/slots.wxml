@@ -1,9 +1,10 @@
+<import src="/components/result/contract.vue.wxml" />
+<import src="/components/result/signature.vue.wxml" />
+<import src="/components/nav.vue.wxml" />
 <import src="/components/index/search.vue.wxml" />
 <import src="/components/index/sort.vue.wxml" />
 <import src="/components/index/carlist.vue.wxml" />
 <import src="/components/nav.vue.wxml" />
-<import src="/components/result/contract.vue.wxml" />
-<import src="/components/result/signature.vue.wxml" />
 <import src="/components/nav.vue.wxml" />
 <import src="/components/form/brand.vue.wxml" />
 <import src="/components/form/list.vue.wxml" />
@@ -22,8 +23,8 @@
 <import src="/components/owncar/carlist.vue.wxml" />
 <import src="/components/selledcar/carlist.vue.wxml" />
 <import src="/components/nav.vue.wxml" />
+<import src="/components/index/carsearch.vue.wxml" />
 <import src="/components/index/brandtype.vue.wxml" />
 <import src="/components/index/filtratebox.vue.wxml" />
-<import src="/components/index/carsearch.vue.wxml" />
 <import src="/components/owncar/confirm.vue.wxml" />
 <import src="/components/index/brandtype.vue.wxml" />

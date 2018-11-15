@@ -9,41 +9,41 @@
   <view class="_view data-v-a9cb1d7e content">
     <view class="_p data-v-a9cb1d7e title">车辆信息</view>
     <view class="_div data-v-a9cb1d7e baseinfo">
-      <template ref="brand" bindchoiceBrand="handleProxy" bindgetBrandshow="handleProxy" data-eventid="{{'bCd-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Sc8-0'],$root}}" is="86ec213a"></template>
-      <template ref="color" type="color" bindlistChange="handleProxy" data-eventid="{{'mKS-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'x57-1'],$root}}" is="78c52ef2"></template>
-      <template ref="vin" unit type="vin" bindinputChange="handleProxy" placeholder="车架号，非必填" data-eventid="{{'ys8-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'oM2-2'],$root}}" is="51352226"></template>
-      <template ref="engineNo" unit type="engineNo" bindinputChange="handleProxy" placeholder="发动机号，非必填" data-eventid="{{'lcz-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'rnv-3'],$root}}" is="51352226"></template>
-      <template ref="mileage" unit="万公里" type="mileage" bindinputChange="handleProxy" data-eventid="{{'o37-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Xwj-4'],$root}}" is="51352226"></template>
-      <template ref="spsj" type="spsj" bindlistChange="handleProxy" data-eventid="{{'jdf-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'NdP-5'],$root}}" is="d92933fc"></template>
-      <template ref="ccsj" type="ccsj" bindlistChange="handleProxy" data-eventid="{{'z35-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'6bM-6'],$root}}" is="d92933fc"></template>
-      <template ref="belongArea" type="belongArea" bindinputChange="handleProxy" placeholder="初次登记地，非必选" data-eventid="{{'hiN-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'7St-7'],$root}}" is="51352226"></template>
-      <template ref="carNature" type="carNature" bindradioChange="handleProxy" data-eventid="{{'QPQ-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'7bX-8'],$root}}" is="9cbb4452"></template>
-      <template ref="ghNum" unit="次" type="ghNum" bindinputChange="handleProxy" data-eventid="{{'9KK-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'CYY-9'],$root}}" is="51352226"></template>
-      <template ref="instructions" type="instructions" bindradioChange="handleProxy" data-eventid="{{'7F2-10'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'PuA-10'],$root}}" is="9cbb4452"></template>
-      <template ref="bysc" type="bysc" bindradioChange="handleProxy" data-eventid="{{'XaW-11'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'28D-11'],$root}}" is="9cbb4452"></template>
-      <template ref="keyNum" unit="把" type="keyNum" bindinputChange="handleProxy" data-eventid="{{'ulU-12'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Gkg-12'],$root}}" is="51352226"></template>
-      <template ref="cjPrice" unit="万元" type="cjPrice" bindinputChange="handleProxy" data-eventid="{{'f9b-13'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Oms-13'],$root}}" is="51352226"></template>
-      <template ref="freight" type="freight" bindradioChange="handleProxy" data-eventid="{{'hzm-14'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'CTf-14'],$root}}" is="9cbb4452"></template>
-      <template ref="lmGuarantee" type="lmGuarantee" bindradioChange="handleProxy" data-eventid="{{'tuS-15'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'URl-15'],$root}}" is="9cbb4452"></template>
-      <textarea class="_textarea data-v-a9cb1d7e cardetail" value="{{formData.desc}}" bindinput="handleProxy" placeholder="请输入车况描述" placeholder-style="color: #999;line-height: 40px" name id data-eventid="{{'51G-16'}}" data-comkey="{{$k}}" />
+      <template ref="brand" bindchoiceBrand="handleProxy" bindgetBrandshow="handleProxy" data-eventid="{{'Bfk-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Uv1-0'],$root}}" is="86ec213a"></template>
+      <template ref="color" type="color" bindlistChange="handleProxy" data-eventid="{{'QMN-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'NYg-1'],$root}}" is="78c52ef2"></template>
+      <template ref="vin" unit type="vin" bindinputChange="handleProxy" placeholder="车架号，非必填" data-eventid="{{'arK-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'jms-2'],$root}}" is="51352226"></template>
+      <template ref="engineNo" unit type="engineNo" bindinputChange="handleProxy" placeholder="发动机号，非必填" data-eventid="{{'Bke-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'JRE-3'],$root}}" is="51352226"></template>
+      <template ref="mileage" unit="万公里" type="mileage" bindinputChange="handleProxy" data-eventid="{{'m0g-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'v8p-4'],$root}}" is="51352226"></template>
+      <template ref="spsj" type="spsj" bindlistChange="handleProxy" data-eventid="{{'b9C-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'00a-5'],$root}}" is="d92933fc"></template>
+      <template ref="ccsj" type="ccsj" bindlistChange="handleProxy" data-eventid="{{'kyi-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'lbz-6'],$root}}" is="d92933fc"></template>
+      <template ref="belongArea" type="belongArea" bindinputChange="handleProxy" placeholder="初次登记地，非必填" data-eventid="{{'qed-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'OrB-7'],$root}}" is="51352226"></template>
+      <template ref="carNature" type="carNature" bindradioChange="handleProxy" data-eventid="{{'BdD-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'13F-8'],$root}}" is="9cbb4452"></template>
+      <template ref="ghNum" unit="次" type="ghNum" bindinputChange="handleProxy" data-eventid="{{'2MD-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'LaY-9'],$root}}" is="51352226"></template>
+      <template ref="instructions" type="instructions" bindradioChange="handleProxy" data-eventid="{{'huy-10'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'iuJ-10'],$root}}" is="9cbb4452"></template>
+      <template ref="bysc" type="bysc" bindradioChange="handleProxy" data-eventid="{{'P4B-11'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'4EE-11'],$root}}" is="9cbb4452"></template>
+      <template ref="keyNum" unit="把" type="keyNum" bindinputChange="handleProxy" data-eventid="{{'WKX-12'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ZpU-12'],$root}}" is="51352226"></template>
+      <template ref="cjPrice" unit="万元" type="cjPrice" bindinputChange="handleProxy" data-eventid="{{'4If-13'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'26x-13'],$root}}" is="51352226"></template>
+      <template ref="freight" type="freight" bindradioChange="handleProxy" data-eventid="{{'LlF-14'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'qL5-14'],$root}}" is="9cbb4452"></template>
+      <template ref="lmGuarantee" type="lmGuarantee" bindradioChange="handleProxy" data-eventid="{{'02q-15'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'cnI-15'],$root}}" is="9cbb4452"></template>
+      <textarea class="_textarea data-v-a9cb1d7e cardetail" value="{{formData.desc}}" bindinput="handleProxy" placeholder="请输入车况描述" placeholder-style="color: #999;line-height: 40px" name id data-eventid="{{'m4d-16'}}" data-comkey="{{$k}}" />
     </view>
     <view class="_p data-v-a9cb1d7e title">收款人信息</view>
     <view class="_div data-v-a9cb1d7e baseinfo">
-      <template ref="name" unit type="name" bindinputChange="handleProxy" data-eventid="{{'WhF-17'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'iEz-16'],$root}}" is="51352226"></template>
-      <template ref="card" unit type="card" bindinputChange="handleProxy" data-eventid="{{'IE6-18'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'3Dv-17'],$root}}" is="51352226"></template>
-      <template ref="bank" unit type="bank" bindinputChange="handleProxy" data-eventid="{{'BoJ-19'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'YqE-18'],$root}}" is="51352226"></template>
+      <template ref="name" unit type="name" bindinputChange="handleProxy" data-eventid="{{'8XK-17'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'f5z-16'],$root}}" is="51352226"></template>
+      <template ref="card" unit type="card" bindinputChange="handleProxy" data-eventid="{{'olY-18'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'jnb-17'],$root}}" is="51352226"></template>
+      <template ref="bank" unit type="bank" bindinputChange="handleProxy" data-eventid="{{'hUc-19'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'XHC-18'],$root}}" is="51352226"></template>
     </view>
     <view class="_p data-v-a9cb1d7e title">卖方信息</view>
     <view class="_div data-v-a9cb1d7e baseinfo">
-      <template ref="seller" type="seller" unit bindinputChange="handleProxy" data-eventid="{{'YPY-20'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'aNR-19'],$root}}" is="51352226"></template>
-      <template ref="sellerIdCard" type="sellerIdCard" unit bindinputChange="handleProxy" data-eventid="{{'4og-21'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'vwH-20'],$root}}" is="51352226"></template>
-      <template ref="sellerPhone" type="sellerPhone" unit bindinputChange="handleProxy" data-eventid="{{'dNe-22'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0Ew-21'],$root}}" is="51352226"></template>
+      <template ref="seller" type="seller" unit bindinputChange="handleProxy" data-eventid="{{'4t4-20'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'tkM-19'],$root}}" is="51352226"></template>
+      <template ref="sellerIdCard" type="sellerIdCard" unit bindinputChange="handleProxy" data-eventid="{{'NDh-21'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'AMl-20'],$root}}" is="51352226"></template>
+      <template ref="sellerPhone" type="sellerPhone" unit bindinputChange="handleProxy" data-eventid="{{'oK8-22'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'vQV-21'],$root}}" is="51352226"></template>
     </view>
     <view class="_p data-v-a9cb1d7e title">买方信息</view>
     <view class="_div data-v-a9cb1d7e buyinfo">
       <view class="_div data-v-a9cb1d7e buyline" wx:key="index" key="{{index}}" wx:for="{{buyers}}" wx:for-index="index" wx:for-item="buyer">
         <label class="_span data-v-a9cb1d7e close">
-          <icon type="cancel" bindtap="handleProxy" data-eventid="{{'zWK-23-'+index}}" data-comkey="{{$k}}" class="_icon data-v-a9cb1d7e"></icon>
+          <icon type="cancel" bindtap="handleProxy" data-eventid="{{'29m-23-'+index}}" data-comkey="{{$k}}" class="_icon data-v-a9cb1d7e"></icon>
         </label>
         <view class="_div data-v-a9cb1d7e info">
           <view class="_p data-v-a9cb1d7e name">{{buyer.name}}</view>
@@ -51,18 +51,18 @@
           <view class="_p data-v-a9cb1d7e other">手机号 {{buyer.phone}}</view>
         </view>
       </view>
-      <view class="_div data-v-a9cb1d7e addbuy" hidden="{{!(buyers.length < 4)}}" bindtap="handleProxy" data-eventid="{{'AYF-24'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-a9cb1d7e addbuy" hidden="{{!(buyers.length < 4)}}" bindtap="handleProxy" data-eventid="{{'L7Q-24'}}" data-comkey="{{$k}}">
         <view class="_p data-v-a9cb1d7e">新增买方</view>
       </view>
       <view hidden="{{!(sellConfirm)}}" class="_div data-v-a9cb1d7e">
-        <template bindcancelConfirm="handleProxy" bindselectBuyer="handleProxy" data-eventid="{{'rq4-25'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'6oc-22'],$root}}" is="48d7762c"></template>
+        <template bindcancelConfirm="handleProxy" bindselectBuyer="handleProxy" data-eventid="{{'HWR-25'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'X7q-22'],$root}}" is="48d7762c"></template>
       </view>
     </view>
     <view class="_p data-v-a9cb1d7e title">交易条约</view>
     <view class="_p data-v-a9cb1d7e notice">卖方确认：未隐瞒任何事故（无结构件事故），非浸水车，来源合法，权利无争议，车辆档案资料及购车发票信息真实，可正常办理迁档、过户、入户手续。否则，买方有权退车，卖方应在买方提出退车当日退回全部车款给买方。逾期退款的，除每日按转让价的千分之二向买方支付违约金，卖方还应承担买方为此发生的律师费、差旅费、鉴定费、担保费等支出。</view>
     <view class="_div data-v-a9cb1d7e submit">
-      <button type="warn" bindtap="handleProxy" data-eventid="{{'bW7-26'}}" data-comkey="{{$k}}" class="_button data-v-a9cb1d7e">发布</button>
+      <button type="warn" bindtap="handleProxy" data-eventid="{{'Xxy-26'}}" data-comkey="{{$k}}" class="_button data-v-a9cb1d7e">发布</button>
     </view>
-    <template data="{{...$root['0'], ...$root[$kk+'HwW-23'],$root}}" is="1acc4668"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'Ln8-23'],$root}}" is="1acc4668"></template>
   </view>
 </template>
